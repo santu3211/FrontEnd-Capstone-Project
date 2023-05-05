@@ -77,9 +77,4 @@ If you are not able to use Tailwind CSS, open official Tailwind CSS website and 
 
 
 ### Acknowledgements
-React Icons
-Font Awesome
-Formik for form handling
-YUP for form validation
-Redux-toolkit for state management
-Tailwind CSS
+https://react-icons.github.io/react-icons/
