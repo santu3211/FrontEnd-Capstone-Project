@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+#Quiz Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In summary, the quiz frontend project is a web application that enables users to create and take quizzes. The application uses Reactjs, Redux, Tailwindcss, Formik, and Yup to build the Home, Create New Quiz, My Quizzes, and Play Quiz components. The pages provide users with an intuitive and responsive interface for creating, managing, and taking quizzes.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Home page serves as the landing page for the application, providing users with an overview of the website's purpose and features. It includes a navigation bar that enables users to navigate to the other pages.
+The Create New Quiz page is where users can create their own quizzes by providing a title, description, questions, and answer options. The form is built using Formik and Yup, which provide form validation and error handling. Users can add multiple questions, each with multiple answer options, and specify the correct answer.
+The My Quizzes page displays a list of quizzes created by the user, allowing them to delete them. The page uses Redux to manage state and keep track of the user's quizzes
+The Play Quiz page is where users can take quizzes created by other users. The page displays the quiz's title, description, and questions, along with their answer options. Users can select their answers and move on to the next question. Once they complete the quiz, the page displays their score.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Description
 
-### `npm test`
+I created this project with the help of Front-end technologies called HTML, tailwind CSS and JS library i.e., React JS ,redux-toolkit and also used some of the libraries called Formik and Yup for React form validation. The application consists of four pages: Home, Create New Quiz, My Quizzes, and Play Quiz components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Navbar : This is common for all the components.
+2. Create New Quiz : It is used to create multiple number of Quizzes.
+3. My Qizzes : In this component we can see all Quizzes which are created.
+4. Play Quiz : In this component we can plaay quizes which are available.
 
-### `npm run build`
+### Built With
+Front-End Development : React JS,redux-toolkit, HTML, Tailwind CSS and Good Amount of Javascript.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Getting Started
+To get a local copy up and running... follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+Node Should Be Installed in Your System.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## nstallation
+Use clone method or download project using ZIP file in your your computer.
 
-### `npm run eject`
+Open project in vs code and follow the below steps in Vs terminal to install node-modules.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Method 1. Using downloaded ZIP file from GITHUB.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.Install node-modules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.Change directory
 
-## Learn More
+bash cd
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.Excution command (it will open localhost server)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash npm start
 
-### Code Splitting
+Method 2. Using clone method.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1.Clone the repository
 
-### Analyzing the Bundle Size
+bash git clone https://github.com/github_username_/project-name.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2.Install NPM packages
 
-### Making a Progressive Web App
+bash npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3.Excution command
 
-### Advanced Configuration
+bash npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Note:
 
-### Deployment
+If you are not able to use Tailwind CSS, open official Tailwind CSS website and Follow the steps to set up for React environment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Authors
+@santu3211
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Acknowledgements
+React Icons
+Font Awesome
+Formik for form handling
+YUP for form validation
+Redux-toolkit for state management
+Tailwind CSS
+About
+flashcard-generator-sable.vercel.app
+Resources
+ Readme
+Stars
+ 0 stars
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+JavaScript
+96.9%
+ 
+HTML
+1.7%
+ 
+CSS
+1.4%
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+
