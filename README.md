@@ -1,4 +1,4 @@
-#Quiz Platform
+## Quiz Platform
 
 In summary, the quiz frontend project is a web application that enables users to create and take quizzes. The application uses Reactjs, Redux, Tailwindcss, Formik, and Yup to build the Home, Create New Quiz, My Quizzes, and Play Quiz components. The pages provide users with an intuitive and responsive interface for creating, managing, and taking quizzes.
 
@@ -67,6 +67,7 @@ Note:
 If you are not able to use Tailwind CSS, open official Tailwind CSS website and Follow the steps to set up for React environment.
 
 ### Authors
+
 @santu3211
 
 
