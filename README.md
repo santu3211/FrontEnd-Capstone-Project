@@ -68,7 +68,6 @@ bash npm install
 bash npm start
 
 Note:
-
 If you are not able to use Tailwind CSS, open official Tailwind CSS website and Follow the steps to set up for React environment.
 
 ### Authors
