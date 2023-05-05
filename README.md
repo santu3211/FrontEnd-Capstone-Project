@@ -7,8 +7,13 @@ In summary, the quiz frontend project is a web application that enables users to
 ## Components
 
 The Home page serves as the landing page for the application, providing users with an overview of the website's purpose and features. It includes a navigation bar that enables users to navigate to the other pages.
+
+
 The Create New Quiz page is where users can create their own quizzes by providing a title, description, questions, and answer options. The form is built using Formik and Yup, which provide form validation and error handling. Users can add multiple questions, each with multiple answer options, and specify the correct answer.
+
 The My Quizzes page displays a list of quizzes created by the user, allowing them to delete them. The page uses Redux to manage state and keep track of the user's quizzes
+
+
 The Play Quiz page is where users can take quizzes created by other users. The page displays the quiz's title, description, and questions, along with their answer options. Users can select their answers and move on to the next question. Once they complete the quiz, the page displays their score.
 
 ### Description
