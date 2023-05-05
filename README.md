@@ -75,6 +75,3 @@ If you are not able to use Tailwind CSS, open official Tailwind CSS website and 
 
 @santu3211
 
-
-### Acknowledgements
-https://react-icons.github.io/react-icons/
