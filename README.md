@@ -83,32 +83,3 @@ Formik for form handling
 YUP for form validation
 Redux-toolkit for state management
 Tailwind CSS
-About
-flashcard-generator-sable.vercel.app
-Resources
- Readme
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-JavaScript
-96.9%
- 
-HTML
-1.7%
- 
-CSS
-1.4%
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-
